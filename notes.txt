@@ -1,0 +1,12 @@
+
+
+
+Learning Topics
+
+State
+=======
+State is a plain JavaScript object used to react to user events.
+Each class based components has its own state object.
+To set state up you use this.state in the constructor.
+To update state within the component use this.setState.
+Functional components do NOT have state.
