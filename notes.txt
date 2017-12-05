@@ -1,6 +1,4 @@
 
-
-
 Learning Topics
 
 State
@@ -10,3 +8,15 @@ Each class based components has its own state object.
 To set state up you use this.state in the constructor.
 To update state within the component use this.setState.
 Functional components do NOT have state.
+
+Props
+=======
+A way to pass data from a parent component to a child.
+You do this by doing <VideoList videos={this.state.videos} />.
+In a functional component you must pass though props as a paramater.
+
+Map
+=======
+Map will return a new array where each index is the return value of the function.
+You use map instead of for loops they are much better to loop.
+Each child must have a key prop thats identifiable add this as a prop.
