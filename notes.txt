@@ -20,3 +20,10 @@ Map
 Map will return a new array where each index is the return value of the function.
 You use map instead of for loops they are much better to loop.
 Each child must have a key prop thats identifiable add this as a prop.
+
+Loading Data From Parent Fast
+========
+When accessing API data from a parent component it takes time to add to props.
+React likes to render the component immediatly.
+Therefore add an if rule within the component to check if the prop has been setup.
+if(!video) {return <div>Loading...</div>;}
