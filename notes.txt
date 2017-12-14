@@ -1,4 +1,5 @@
 
+
 Learning Topics
 
 State
@@ -27,3 +28,8 @@ When accessing API data from a parent component it takes time to add to props.
 React likes to render the component immediatly.
 Therefore add an if rule within the component to check if the prop has been setup.
 if(!video) {return <div>Loading...</div>;}
+
+Redux
+========
+Contains the state of the application, what the Data is.
+Think about the state before creating the application.

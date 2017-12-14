@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import YTSearch from 'youtube-api-search';
@@ -30,6 +31,7 @@ class App extends Component {
   }
 
   render() {
+
     return (
       <div>
         <SearchBar onSearchTermChange={term => this.videoSearch(term)} />
